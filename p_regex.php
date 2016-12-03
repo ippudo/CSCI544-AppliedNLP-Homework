@@ -1,0 +1,27 @@
+0;136;0c<?PHP
+   $rea_jp_title=<<<EOS
+{<span\sclass="zg_rankMeta">.*?<a\sclass="a-link-normal"\starget="_blank"\srel="noopener\snoreferrer"\shref=".*?/dp/([0-9A-Za-z]+)/.*?">(.*?)</a>}isx
+EOS;
+   $rea_review=<<<EOS
+{<span\sdata-hook="review-body"\sclass="a-size-base\sreview-text">(.*?)</span>}isx
+EOS;
+   $rea_en_title=<<<EOS
+{<div\sclass="zg_itemWrapper">.*?<a\sclass="a-link-normal"\shref=".*?/product/([0-9A-Za-z]*?)/.*?">}isx
+EOS;
+   $rea_cn_title=<<<EOS
+{<span\sclass="zg_rankMeta">.*?<a\sclass="a-link-normal"\starget="_blank"\srel="noopener\snoreferrer"\shref=".*?/product/([0-9A-Za-z]+)/.*?">(.*?)</a>}isx
+EOS;
+   $rea_jp_totalreview=<<<EOS
+{([0-9]+)件中[0-9]+\s-\s[0-9]+件目のレビューを表示}isx
+EOS;
+   $rea_cn_totalreview=<<<EOS
+{共\s([0-9,]+)\s条评论}isx
+EOS;
+   $rea_en_totalreview=<<<EOS
+{of\s([0-9,]+)\sreviews}isx
+EOS;
+   $rrr_br=<<<EOS
+{</br>}i
+EOS;
+
+?>
