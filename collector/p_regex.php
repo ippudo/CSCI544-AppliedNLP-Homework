@@ -1,4 +1,4 @@
-0;136;0c<?PHP
+<?PHP
    $rea_jp_title=<<<EOS
 {<span\sclass="zg_rankMeta">.*?<a\sclass="a-link-normal"\starget="_blank"\srel="noopener\snoreferrer"\shref=".*?/dp/([0-9A-Za-z]+)/.*?">(.*?)</a>}isx
 EOS;
